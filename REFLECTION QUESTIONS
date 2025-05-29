@@ -7,7 +7,14 @@ output: html_document
 
 ## QUESTION 1: Why is the OLTP system normalized and the OLAP system denormalized? 
 
+1. The OLAP is normalized to avoid redundancy: 	A customer's data is stored once (in customers table), not repeated in every transaction.
+2. To ensure data Integrity
+3. Optimize transaction speed
 
+The OLAP sysytem is denormalized
+1.For faster query perfomance: Queries don’t require complex joins—data is already flattened and ready for aggregation.
+2. Read-Heavy Workloads: OLAP systems mostly read data (not update/insert), so repeated data isn’t a big problem.
+3.Simplified queries
 
 
 
