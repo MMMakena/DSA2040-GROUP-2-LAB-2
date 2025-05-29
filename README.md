@@ -19,4 +19,9 @@ This project simulates a retail data pipeline that combines Online Transaction P
 5. Execute analytical queries.
 
 ## Author & Contributors
-[Add names here]
+- Mitchel Makena- 667413(@MMMakena)
+- Esther Wambui - 669399(@Esther-Wambui)
+- Kyra Joy Kariuki - 669619(@Kyrajwk)
+- Queen Kibegi -668897(@QUEEN-KIBEGI)
+- Claire Mwarari -669470(@dollykoi)
+- Julie Koki- 669996(@juli3333)
