@@ -5,16 +5,18 @@ date: "`r Sys.Date()`"
 output: html_document
 ---
 
-## QUESTION 1
+## QUESTION 1: Why is the OLTP system normalized and the OLAP system denormalized? 
 
 
 
 
 
-## QUESTION 2
+## QUESTION 2: What challenges would you face if you ran analytical queries directly on the OLTP 
+system? 
 
 
 
 
 
-## QUESTION 3
+## QUESTION 3: How can automation (e.g., scheduled ETL jobs) help in a real-world data 
+pipeline? 
