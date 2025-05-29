@@ -1,4 +1,4 @@
-# DSA2040-GROUP-2-LAB-2
+
 # OLTP & OLAP Integrated Retail Data Warehouse
 
 ## Overview
