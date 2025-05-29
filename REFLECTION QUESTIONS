@@ -27,3 +27,12 @@ system?
 
 ## QUESTION 3: How can automation (e.g., scheduled ETL jobs) help in a real-world data 
 pipeline? 
+1. Scalability:
+Automated pipelines can handle increasing data volumes by scaling the process without requiring proportional increases in manual monitoring or intervention, making it easier to grow the data infrastructure seamlessly.
+
+2. Version Control and Rollbacks:
+Automation scripts and ETL workflows can be managed with version control systems, allowing easy rollback to previous stable states if new data transformations introduce errors, thus improving pipeline maintainability and robustness.
+
+3. Reduced Manual Workload:
+Automation frees up data engineers and analysts to focus on higher-value tasks like data modeling or analytics instead of repetitive data wrangling.
+
