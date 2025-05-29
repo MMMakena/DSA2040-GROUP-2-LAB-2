@@ -25,3 +25,6 @@ This project simulates a retail data pipeline that combines Online Transaction P
 - Queen Kibegi -668897(@QUEEN-KIBEGI)
 - Claire Mwarari -669470(@dollykoi)
 - Julie Koki- 669996(@juli3333)
+
+# License
+MIT License
