@@ -1,6 +1,6 @@
 -- customers table
 CREATE TABLE customers (
-    customer_id INT PRIMARY KEY,
+    customer_id INT IDENTITY PRIMARY KEY,
     name VARCHAR(100),
     email VARCHAR(100) UNIQUE,
     registered_date DATE
@@ -8,7 +8,7 @@ CREATE TABLE customers (
 
 -- products table
 CREATE TABLE products (
-    product_id INT PRIMARY KEY,
+    product_id INT IDENTITY PRIMARY KEY,
     name VARCHAR(100),
     category VARCHAR(50),
     price DECIMAL(10,2)
@@ -16,14 +16,14 @@ CREATE TABLE products (
 
 -- stores table
 CREATE TABLE stores (
-    store_id INT PRIMARY KEY,
+    store_id INT IDENTITY PRIMARY KEY,
     name VARCHAR(100),
     region VARCHAR(50)
 );
 
 -- transactions table
 CREATE TABLE transactions (
-    transaction_id INT PRIMARY KEY,
+    transaction_id INT IDENTITY PRIMARY KEY,
     customer_id INT REFERENCES customers(customer_id),
     product_id INT REFERENCES products(product_id),
     store_id INT REFERENCES stores(store_id),
