@@ -18,6 +18,19 @@ This project simulates a retail data pipeline that combines Online Transaction P
 4. Run ETL to populate fact_sales.
 5. Execute analytical queries.
 
+## Run-down on the work
+- By the use of Microsoft SQL, we were able to create the OLTP database. Since Microsoft is different in place of SERIAL, we changed it to IDENTITY. This change help us in creating the table. See in `oltp.sql`
+- Under the folder sample data, we excecuted the codes given and save it with the file name `sample_data.sql`. We used the data and filled the tables.
+- For the OLAP database, we used the previous database from LAB 1 work.
+- We ran the `elt.sql` and the results were successful.
+- Using the queries given `analytical_queries`, we got the results of the monthly sales trend and top selling products.
+ 1. Monthly Sales Trends
+ ![alt text](image.png)
+ 2. Top Selling Products
+ ![alt text](image-1.png)
+ 
+ - We did the reflection questions `REFLECTION QUESTIONS.rmd`
+
 ## Author & Contributors
 - Mitchel Makena- 667413(@MMMakena)
 - Esther Wambui - 669399(@Esther-Wambui)
