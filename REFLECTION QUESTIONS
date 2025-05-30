@@ -21,7 +21,9 @@ The OLAP sysytem is denormalized
 ## QUESTION 2: What challenges would you face if you ran analytical queries directly on the OLTP 
 system? 
 
-
+1. Problems with Locking and Concurrency - Analytical searches are frequently resource-intensive and lengthy. They have the ability to lock rows or tables, which can result in blocking, delays, or even deadlocks with normal transactions.
+2. High Use of Resources - Transactional processes on the same system may perform less well as a result of analytical queries' high CPU, memory, and disk I/O use.
+3. Absence of Reliable Data Snapshots - It is challenging to obtain a consistent snapshot for precise analysis because OLTP systems are always changing. Analytical results may become inconsistent or deceptive as a result.
 
 
 
